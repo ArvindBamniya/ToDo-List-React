@@ -10,7 +10,6 @@ const AddToDo = () => {
         setList([ ...list, task ])
         setTask('')
     }
-
     const deleteTask = (i) => {
         const newList = [ ...list ]
         newList.splice(i, 1)
