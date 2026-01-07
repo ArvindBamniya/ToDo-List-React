@@ -19,6 +19,7 @@ const AddToDo = () => {
     return (
         <div className="min-h-screen bg-slate-900 flex flex-col items-center px-4">
             {/* Heading */}
+            <span>©2026arvindBamniya</span>
             <h1 className="mt-10 text-[#fff2df] text-3xl sm:text-4xl md:text-6xl font-bold">
                 ToDo List
             </h1>
@@ -37,7 +38,7 @@ const AddToDo = () => {
                 />
                 <button
                     onClick={addTodo}
-                    className="bg-cyan-600 text-white text-lg md:text-xl px-6 py-3 rounded-3xl font-semibold active:scale-95"
+                    className="bg-cyan-600 text-white text-lg md:text-xl px-6 py-3 rounded-3xl font-semibold cursor-pointer active:scale-95"
                 >
                     Add Task
                 </button>
